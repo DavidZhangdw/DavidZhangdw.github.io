@@ -1,213 +1,398 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Dawei Zhang</title>
+        <meta content="Dawei Zhang, DavidZhangdw.github.io" name="keywords" />
+        <style media="screen" type="text/css">html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+            border: 0pt none;
+            font-family: inherit;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            margin: 0pt;
+            outline-color: invert;
+            outline-style: none;
+            outline-width: 0pt;
+            padding: 0pt;
+            vertical-align: baseline;
+        }
 
-<!DOCTYPE html>
-<html lang="en">
+        a {
+            color: #1772d0;
+            text-decoration:none;
+        }
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        a:focus, a:hover {
+            color: #f09228;
+            text-decoration:none;
+        }
 
-  <title>
+        a.paper {
+            font-weight: bold;
+            font-size: 12pt;
+        }
 
-      David_Zhang's homepage
+        b.paper {
+            font-weight: bold;
+            font-size: 12pt;
+        }
 
-  </title>
+        * {
+            margin: 0pt;
+            padding: 0pt;
+        }
 
-  <meta name="description" content="Dawei Zhang">
-  <meta name="keywords" content="Dawei Zhang,ZJNU">
+        body {
+            position: relative;
+            margin: 3em auto 2em auto;
+            width: 800px;
+            font-family: Lato, Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+            background: #eee;
+        }
 
-  <link rel="canonical" href="https://davidzhangdw.github.io/">
-  <link rel="alternate" type="application/rss+xml" title="David_Zhang's Homepage" href="https://davidzhangdw.github.io/">
+        h2 {
+            font-family: Lato, Verdana, Helvetica, sans-serif;
+            font-size: 15pt;
+            font-weight: 700;
+        }
 
-  <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Roboto+Condensed:700&subset=latin' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://davidzhangdw.github.io/css/hp.css">
+        h3 {
+            font-family: Lato, Verdana, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+        }
 
-  <meta property="og:url" content="https://davidzhangdw.github.io/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Dawei Zhang">
-  <meta property="og:description" content="Ph.D student at DTAE Lab, ZJNU">
-  <meta property="og:site_name" content="David_Zhang's Homepage">
+        strong {
+            font-family: Lato, Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight:bold;
+        }
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://davidzhangdw.github.io/">
-  <meta name="twitter:title" content="Dawei Zhang">
-  <meta name="twitter:description" content="Ph.D student at DTAE Lab, ZJNU">
+        ul {
+            list-style: circle;
+        }
 
+        img {
+            border: none;
+        }
 
-    <meta property="og:image" content="https://davidzhangdw.github.io/images/main.jpg">
-    <meta name="twitter:image" content="https://davidzhangdw.github.io/images/main.jpg">
+        li {
+            padding-bottom: 0.5em;
+            margin-left: 1.4em;
+        }
 
+        alert {
+            font-family: Lato, Verdana, Helvetica, sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            color: #FF0000;
+        }
 
+        em, i {
+            font-style:italic;
+        }
+
+        div.section {
+            clear: both;
+            margin-bottom: 1.5em;
+            background: #eee;
+        }
+
+        div.spanner {
+            clear: both;
+        }
+
+        div.edu {
+            clear: both;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            border: 1px solid #ddd;
+            background: #fff;
+            padding: 1em 1em 1em 1em;
+        }
+
+        div.edu div {
+            padding-left: 100px;
+        }
+
+        div.paper {
+            clear: both;
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+            background: #fff;
+            padding: 1em 1em 1em 1em;
+        }
+
+        div.paper div {
+            padding-left: 230px;
+        }
+
+        img.paper {
+            margin-bottom: 0.5em;
+            float: left;
+            width: 200px;
+        }
+        img.icon {
+            margin-bottom: 0.5em;
+            float: left;
+            width: 75px;
+            height: 75px;
+        }
+
+        span.blurb {
+            font-style:italic;
+            display:block;
+            margin-top:0.75em;
+            margin-bottom:0.5em;
+        }
+
+        pre, code {
+            font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+            margin: 1em 0;
+            padding: 0;
+        }
+
+        div.paper pre {
+            font-size: 0.9em;
+        }
+    </style>
+
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
 </head>
-
-
-  <body>
-    <div id="shadow"></div>
-
-      <header class="main-header content-wrapper">
-
-  <input type="checkbox" id="menu-checkbox" />
-
-  <nav class="center-wrapper nav-main">
-
-    <a class="blog-logo" href="https://davidzhangdw.github.io/">David_Zhang's Homepage</a>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 
 
-        <a href="https://davidzhangdw.github.io/">Publications</a>
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66888300-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<body>
+    <div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
+        <div style="margin: 0px auto; width: 100%;">
+            <img title="DaweiZhang" style="float: left; padding-left: .01em; height: 140px;" src="https://davidzhangdw.github.io/images/david.jpg"/>
+            <div style="padding-left: 12em; vertical-align: top; height: 120px;"><span style="line-height: 150%; font-size: 20pt;">Dawei Zhang (张大伟)</span><br />
+                <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-7593-1593" href="https://orcid.org/0000-0002-7593-1593" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-7593-1593</a></div>
+                <span><strong>Ph.D. student</strong></span><br />
+                <span><a href='https://www.researchgate.net/profile/Zhonglong_Zheng'>DetectionTrackingAlgorithmEngineering Laboratory (DTAE Lab)</a></span><br />
+                <span>Department of Computer Science, Zhejiang Normal University</span><br />
+                <span><a href="mailto:davidzhang@zjnu.edu.cn">davidzhang@zjnu.edu.cn</a></span><br />
+				<span><a href="mailto:davidzhang@ieee.org">davidzhang@ieee.org</a></span><br />
+            </div>
+        </div>
+    </div>
+
+    <div style="clear: both;">
+        <div class="section">
+            <h2>About Me (<a href='https://github.com/DavidZhangdw'>GitHub</a>) (<a href='https://www.researchgate.net/profile/Dawei_Zhang4'>ResearchGate</a>) (<a href='https://www.researchgate.net/profile/Dawei_Zhang4'>Google scholar</a>)</h2>
+            <div class="paper">
+                I'm currently a Ph.D. student in <a href='https://www.researchgate.net/profile/Zhonglong_Zheng'>ZJNU DTAE Laboratory</a> supervised by <a href='http://mypage.zjnu.edu.cn/ZZL4/zh_CN/index.htm'>Zhonglong Zheng</a>.
+                Before that, I received my B.E. degree in the <a href='http://ced.hyit.edu.cn/'>Department of Computer Science and Technology</a> in <a href='http://www.hyit.edu.cn/'>Huaiyin Institute of Technology</a>, Huaiyin, China in 2017.
+                <br>
+                My research interests include computer vision, deep learning and reinforcement learning.
+            </div>
+        </div>
+    </div>
+
+    <div style="clear: both;">
+        <div class="section">
+            <h2 id="edu">Education</h2>
+            <div class="edu" id="zjnu"><img class="icon" src="https://davidzhangdw.github.io/images/zjnu.jpg" title="cuhk" />
+                <div> <font size="20"><strong>Zhejiang Normal University</strong></font><br />
+                    <br>
+                    <font color="gray">August 2017 - Present. Ph.D. in Computer Science.</font>
+                </div>
+                <div class="spanner"></div>
+            </div>
+            <div class="edu" id="hyit"><img class="icon" src="https://davidzhangdw.github.io/images/hyit.jpg" title="thu" />
+                <div> <font size="20"><strong>Huaiyin Institute of Technology</strong></font><br />
+                    <br>
+                    <font color="gray">August 2013 - July 2017. Bachelor.</font>
+                    <br>
+                    <font color="gray">Rank 5/34. With "Outstanding Graduate Award" (58 out of about 420 graduates).</font>
+                </div>
+                <div class="spanner"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="clear: both;">
+        <div class="section">
+            <h2>News</h2>
+            <div class="paper">
+                <ul>
+					[15/05/2020] One paper was accepted by IEEE ICIP 2020 (CCF-C类会议).<br>
+					[25/04/2020] We sumbit a paper to ACM MM 2020 (CCF-A类会议).<br>
+					[21/03/2020] One paper was accepted by IEEE IJCNN 2020 (CCF-C类会议).<br>
+					[09/03/2020] One paper was accepted by ACM ICMR 2020 (CCF-B类会议).<br>
+					[20/02/2020] One paper was accepted by IEEE ACCESS (SCI-2区).
+                </ul>
+            </div>
+        </div>
+    </div>
 
 
 
-        <a href="https://davidzhangdw.github.io/">Projects</a>
+    <div style="clear: both;">
+        <div class="section">
+            <h2 id="confpapers">Publications</h2>
 
+            <div> <strong>2020</strong><br />
 
-    <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label>
-  </nav>
+                <div class="paper" id="siamac"><img class="paper" src="https://davidzhangdw.github.io/images/siamac.jpg" title="icip20-siamac" />
+                    <div> <strong>High Performance Visual Tracking with Siamese Actor-Critic Network</strong><br />
+                        <br>
+                        <strong>Dawei Zhang</strong>, <strong>Zhonglong Zheng</strong>
+                        <br>
+                        IEEE International Conference on Image Processing (ICIP), 2020<br />
+                        <br>
+                        <a href='https://arxiv.org/abs/2005.xxxxx'>[Paper]</a>
+                        <a href='https://davidzhangdw.github.io/projects/SiamAC.html'>[Project Page]</a>
+                        <a href="https://github.com/davidzhangdw/siamac">[Code]</a>
+                    </div>
+                    <div class="spanner"></div>
+                </div>
 
-</header>
+                <div class="paper" id="quadfc"><img class="paper" src="https://davidzhangdw.github.io/images/quadfc.jpg" title="ijcnn20-quadfc" />
+                    <div> <strong>Joint Representation Learning with Deep Quadruplet Network for Real-Time Visual Tracking</strong><br />
+                        <br>
+                        <strong>Dawei Zhang</strong>, <strong>Zhonglong Zheng</strong>
+                        <br>
+                        IEEE International Joint Conference on Neural Networks (IJCNN), 2020 (<font color="orange"><strong>Oral</strong></font>)<br />
+                        <br>
+                        <a href='https://arxiv.org/abs/2004.xxxxx'>[Paper]</a>
+                        <a href='https://davidzhangdw.github.io/projects/QuadFC.html'>[Project Page]</a>
+                        <a href="https://github.com/davidzhangdw/quadfc">[Code]</a>
+                        <a href='https://github.com/davidzhangdw/quadfc'>[Demo]</a>
+                    </div>
+                    <div class="spanner"></div>
+                </div>
 
+                <div class="paper" id="ccasiam"><img class="paper" src="https://davidzhangdw.github.io/images/ccasiam.jpg" title="icmr20-ccas" />
+                    <div> <strong>Learning Fine-Grained Similarity Matching Networks for Visual Tracking</strong><br />
+                        <br>
+                        <strong>Dawei Zhang</strong>, Zhonglong Zheng*, Xiaowei He, Liu Su, Liyuan Chen
+                        <br>
+                        ACM International Conference on Multimedia Retrieval (ICMR), 2020<br />
+                        <br>
+						<a href='https://doi.org/10.1145/3372278.3390729'>[Paper]</a>
+                        <a href='https://davidzhangdw.github.io/projects/ccasiam.html'>[Project Page]</a>
+                        <a href="https://github.com/davidzhangdw/ccasiam">[Code]</a>
+                    </div>
+                    <div class="spanner"></div>
+                </div>
 
-  <aside class="sidebar" role="note" style="background-image: url(https://davidzhangdw.github.io/images/main.jpg)">
+                <div class="paper" id="fnprms"><img class="paper" src="https://davidzhangdw.github.io/images/fnprms.jpg" title="access-fnprms" />
+                    <div> <strong>Feature Selection for Multi-Label Learning Based on F-neighborhood Rough Sets </strong><br />
+                        <br>
+                        Zhixuan Deng, Zhonglong Zheng*, Dayong Deng, Tianxiang Wang, Yiran He, <strong>Dawei Zhang</strong>
+                        <br>
+                        IEEE Access, 2020<br />
+                        <br>
+                        <a href='https://ieeexplore.ieee.org/document/9007716'>[Paper]</a>
+                    </div>
+                    <div class="spanner"></div>
+                </div>
 
+                <div> <strong>2019</strong><br />
 
-  <div class="cover">
+                <div class="paper" id="arxiv"><img class="paper" src="https://davidzhangdw.github.io/images/usl.png" title="arxiv-dturl" />
+                    <div> <strong>Deep Tracking via Unsupervised Representation Learning</strong><br />
+						<br>
+                        ArXiv preprint<br />
+                        <br>
+						<a href='https://arxiv.org/abs/2003.xxxxx'>[arXiv]</a>
+                    </div>
+                    <div class="spanner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <div class="cover-text">
-      <div class="heading">
+    <div style="clear: both;">
+        <div class="section">
+            <h2 id="confpapers">Professional activities</h2>
+            <div class="paper">
+                <li>Reviewer of IEEE Access, IJCNN (2020).</li>
+                <ul>
+                    <p><font size="5"></font></p>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <!---
+    <div style="clear: both;">
+        <div class="section">
+            <h2 id="confpapers">Contests</h2>
+            <div class="paper">
+                <ul>
 
-          Dawei Zhang<br>(张大伟)
+                </ul>
+                <div class="spanner"></div>
+            </div>
+        </div>
+    </div>
+    -->
 
+    <div style="clear: both;">
+        <div class="section"><h2>Talks</h2>
+            <div class="paper">
+                <li>2019 @ ZJNU <a href=pdf/talk-zjnu-2019.pdf>Visual Tracking via Deep Reinforcement Learning</a></li>
 
-      </div>
-
-      <p>
-
-          Ph.D student at DTAE Lab, ZJNU
-
-      </p>
+            </div>
+            <div class="spanner"></div>
+        </div>
 
     </div>
 
-  </div>
 
-  <div id="switcher"></div>
-</aside>
-
-
-    <main class="content-wrapper">
-
-  <article class="index-page">
-    <h2>About me</h2>
-    <p>I’m currently a first-year Ph.D candidate in <a href="https://www.researchgate.net/profile/Zhonglong_Zheng/">DTAE Lab</a>, Zhejiang Normal University. Currently I am supervised by <a href="http://mypage.zjnu.edu.cn/ZZL4/zh_CN/index.htm">Prof. Zhonglong Zheng</a>. I’m interested in Computer Vision, Deep Learning and Reinforcement Learning.
-
-In my normal life, I like sports, music and travel!</p>
-
-
-  </article>
-
-  <article class="index-page">
-    <h2>News!</h2>
-    <ul>
-    <li>[15/05/2020] One paper accepted by IEEE ICIP (CCF-C类会议).</font></li>
-    <li>[25/04/2020] We sumbit a paper to ACM MM (CCF-A类会议).</font></li>
-    <li>[21/03/2020] One paper accepted by IEEE IJCNN 2020 (CCF-C类会议).</li>
-    <li>[09/03/2020] One paper accepted by ACM ICMR 2020 (CCF-B类会议).</li>
-    <li>[20/02/2020] One paper accepted by IEEE ACCESS (SCI-2区).</li>
-    </ul>
-
-  </article>
-
-  <article class="index-page">
-    <h2>Publication</h2>
-<link rel="stylesheet" href="https://davidzhangdw.github.io/css/pub.css">
-<div class="publication"><div class="left"><img src="https://davidzhangdw.github.io/images/siamac.png"></div>
-  <div class="right"><h4>HIGH PERFORMANCE VISUAL TRACKING WITH SIAMESE ACTOR-CRITIC NETWORK </h4>
-    <b><a class="author" href="https://www.researchgate.net/profile/Dawei_Zhang4">Dawei Zhang*</a></b>, 
-    <a class="author" href="https://www.researchgate.net/profile/Zhonglong_Zheng/">Zhonglong Zheng*</a>, 
-    <p class="venue"> IEEE ICIP 2020&nbsp;
-      <a style="text-decoration: underline" href="1">[Paper]</a>
-      <a style="text-decoration: underline" href="1">[Project Page]</a>
-      <a style="text-decoration: underline" href="1">[Demo]</a>
-    </p>
-  </div></div>
-	  
-<link rel="stylesheet" href="https://davidzhangdw.github.io/css/pub.css">
-<div class="publication"><div class="left"><img src="https://davidzhangdw.github.io/images/quadfc.jpg"></div>
-  <div class="right"><h4>Joint Representation Learning with Deep Quadruplet Network for Real-Time Visual Tracking </h4>
-    <b><a class="author" href="https://www.researchgate.net/profile/Dawei_Zhang4">Dawei Zhang*</a></b>, 
-    <a class="author" href="https://www.researchgate.net/profile/Zhonglong_Zheng/">Zhonglong Zheng*</a>, 
-    <p class="venue"> IEEE IJCNN 2020&nbsp;
-      <a style="text-decoration: underline" href="1">[Paper]</a>
-      <a style="text-decoration: underline" href="1">[Project Page]</a>
-      <a style="text-decoration: underline" href="1">[Demo]</a>
-    </p>
-  </div></div>
-
-<link rel="stylesheet" href="https://davidzhangdw.github.io/css/pub.css">
-<div class="publication"><div class="left"><img src="https://davidzhangdw.github.io/images/ccasiam.jpg"></div>
-  <div class="right"><h4>Learning Fine-Grained Similarity Matching Networks for Visual Tracking </h4>
-    <b><a class="author" href="https://www.researchgate.net/profile/Dawei_Zhang4">Dawei Zhang</a></b>, 
-    <a class="author" href="https://www.researchgate.net/profile/Zhonglong_Zheng/">Zhonglong Zheng</a>, 
-    <a class="author" href="https://www.researchgate.net/profile/Xiaowei_He8">Xiaowei He</a>, 
-    <a class="author" href="0">Liu Su</a>
-    <a class="author" href="0">Liyuan Chen</a>
-    <p class="venue"> ACM ICMR 2020&nbsp;
-      <a style="text-decoration: underline" href="1">[Paper]</a>
-      <a style="text-decoration: underline" href="1">[Project Page]</a>
-      <a style="text-decoration: underline" href="1">[Demo]</a>
-    </p></div></div>
-
-<link rel="stylesheet" href="https://davidzhangdw.github.io/css/pub.css">
-<div class="publication"><div class="left"><img src="https://davidzhangdw.github.io/images/fnprms.jpg"></div>
-<div class="right"><h4>Feature Selection for Multi-Label Learning Based on F-neighborhood Rough Sets </h4>
-  <a class="author" href="0">Zhixuan Deng</a>, 
-  <a class="author" href="https://www.researchgate.net/profile/Zhonglong_Zheng/">Zhonglong Zheng</a>,
-  <a class="author" href="0">Dayong Deng</a>,
-  <a class="author" href="0">Tianxiang Wang</a>,
-  <a class="author" href="0">Yiran He</a>,
-  <b><a class="author" href="https://www.researchgate.net/profile/Dawei_Zhang4">Dawei Zhang</a></b>
-  <p class="venue"> IEEE ACCESS 2020&nbsp;
-      <a style="text-decoration: underline" href="https://ieeexplore.ieee.org/document/9007716">[Paper]</a>
-  </p></div></div>
-
-  </article>
-	
-  <article class="index-page">
-    <h2>Project</h2>
-    <div>
-      <a href="1"><img src=""></a></div><div><a href="1"><h4>To be added </h4></a>
+    <div style="clear: both;">
+        <div class="section"><h2>Honors and Awards</h2>
+            <div class="paper">
+                <li>"Huawei Cup" 16th China Graduate Mathematical Modeling Competition, Winner Award, 2018</a></li>
+				<li>First class Academic Scholarship of Zhejiang Normal University, 2018</li>
+                <li>Outstanding Graduate of Huaiyin Institute of Technology, 2017 (58 winners out of about 420 graduates)</li>
+                <li>Outstanding Volunteer in the National Robotics Competition, 2016, Jiangsu</li>
+				<li>Third class Scholarship of Huaiyin Institute of Technology, 2015</li>
+            </div>
+        </div>
     </div>
 
-  </article>
-
-  <article class="index-page">
-  <h2>Education</h2>
-  <link rel="stylesheet" href="https://sdolivia.github.io/assets/css/publication.css">
-<div class="publication"><div class="left"><img src="http://davidzhangdw.github.io/images/zjnu.jpg"></div>
-  <div class="right"><h5 style="color:#707070"> Zhejiang Normal University </h5>
-    <a class="author"><b style="color:#707070">Ph.D. in Computer Science </b></a>
-    <p class="venue"><b style="color:#A0A0A0">Aug. 2017 - Present</b>
-    </p>
-  </div></div>
-	  
-  <link rel="stylesheet" href="https://sdolivia.github.io/assets/css/publication.css">
-<div class="publication"><div class="left"><img src="http://davidzhangdw.github.io/images/hyit.jpg"></div>
-  <div class="right"><h5 style="color:#707070">HYIT</h5>
-    <a class="author"><b style="color:#707070">B.S. in Computer Science and Technology</b></a>
-    <p class="venue"><b style="color:#A0A0A0">Aug. 2013 - Jun. 2017</b>
-    </p>
-  </div></div>
-
-</article>
-      
-    </main>
-
-    <footer class="blog-footer content-wrapper">
-  <p>&copy; <span class="full-year"></span> Dawei Zhang ❀</p>
-</footer>
-<script src="https://davidzhangdw.github.io/js/scripts.js"></script>
+    <!-- <div style="clear: both;">
+        <div class="section"><h2>Friends</h2>
+            <div class="paper">
+                <a href="http://wanglimin.github.io/">Limin Wang</a> (ETHz),
+                <a href="http://wangzheallen.github.io/">Zhe Wang</a> (UCI),
+                <a href="http://ydwen.github.io/">Yandong Wen</a> (CMU),
+                <a href="http://zbwglory.github.io/">Bowen Zhang</a> (USC),
+                <a href="http://kpzhang93.github.io/">Kaipeng Zhang</a> (NTU Taiwan),
+                <a href="http://guoshengcv.github.io/">Sheng Guo</a> (SIAT),
+            </div>
+        </div>
+    </div> -->
 
 
-  </body>
+    <div style="clear:both;">
+    <p align="right"><font size="5">Published with <a href='https://pages.github.com/'>GitHub Pages</a></font></p>
+</div>
+<hr>
+<div id="clustrmaps-widget"></div><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=f1K5hwloVkenBNI_d6zZI5Zl50Bz66iXfci0wWh52kw&cl=ffffff&w=a"></script>
+
+</body>
 </html>
